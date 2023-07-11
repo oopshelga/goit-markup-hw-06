@@ -168,9 +168,6 @@ img {
 
 .header-contact {
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     color: var(--main-dark-cl);
     transition-property: color;
     transition-duration: 250ms;
@@ -207,7 +204,6 @@ img {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
-    letter-spacing: 0.02em;
     color: var(--main-white-bgd);
     display: block;
     margin: 0 auto;
@@ -261,7 +257,7 @@ img {
     } 
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
    .benefits-list {
         display: flex;
         flex-wrap: wrap;
@@ -305,11 +301,21 @@ img {
         }
 }
 
-.benefits-title {
-    font-weight: 500;
-    font-size: 20px;
-    color: var(--dark-title-cl);
-    margin-bottom: 8px;
+@media screen and (max-width: 767px) {
+  .benefits-title {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.1;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+  }
+}
+@media screen and (min-width: 768pxpx) {
+    .benefits-title {
+        font-weight: 500;
+        font-size: 20px;
+        color: var(--dark-title-cl);
+        margin-bottom: 8px;
 }
 
 .benefits-text {
