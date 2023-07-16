@@ -53,16 +53,7 @@ button {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    outline: 2px solid red;
-    outline-offset: -2px;
     
-
-    /*
-    width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px; */
 }
 /* Tablet sreen */
 @media screen and (min-width: 768px) {
@@ -1351,9 +1342,9 @@ button {
 .mobile-item {
     margin-bottom: 40px;
 }
-.menu-link .active {
+.mobile-link.active::after {
     color: var(--dark-blue-bgd);
-}    
+}
 .mobile-link {
     font-size: 28px;
     font-weight: 700;
@@ -1372,7 +1363,7 @@ button {
 }
 
 .menu-address-item {
-margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 .menu-email {
