@@ -861,7 +861,7 @@ button {
     color: var(--main-white-bgd);
 }
 
-@media only screen and (max-width: 427px) {
+@media only screen and (max-width: 767px) {
     .subscribe-form-input {
         width: 100%;
     
